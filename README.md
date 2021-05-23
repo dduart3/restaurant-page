@@ -1,2 +1,2 @@
-# webpack-boilerplate
-Basic Webpack + Babel boilerplate for html projects
+# Restaurant Page
+## Dynamic rendered restaurant page project for The odin Project
