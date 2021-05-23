@@ -140,26 +140,3 @@ contactItem.addEventListener('click', (e)=>{
         title: 'Contact'
     });
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//content.appendChild(contact())
-//content.appendChild(menu())
-
-//content.appendChild(home())
-
