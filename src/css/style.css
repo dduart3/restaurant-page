@@ -1,0 +1,228 @@
+@import url('http://fonts.cdnfonts.com/css/gobold');
+*
+{
+    font-family:'Gobold';
+    margin: 0;
+    padding: 0;
+}
+html,
+body
+{
+    font-family: "Gobold";
+    height: 100vh;
+
+    
+}
+body{
+    overflow-x: hidden;
+    background-image: url('/static/images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.button{
+  background-color: rgba(255, 255, 0, 0.747);
+  border-radius: 10px;
+  height: 5vh;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 10vh;
+ 
+}
+
+
+body::after{
+  content: "";
+  background-color: rgba(0,0,0,0.85);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+
+.cards{
+  height: 60vh;
+  width: 70vw;
+  display: flex;
+  flex-wrap:wrap;
+  align-items:center;
+  
+  margin-top: 6vh;
+}
+
+.card{
+  display: inline-block;
+    background:rgb(255, 255, 255);
+    margin:10px 0 5vh 10px;    
+    flex-grow: 1;
+    height:calc(100% * (1/2) - 10px - 1px);    
+    width: calc(100% * (1/4) - 10px - 1px);
+    text-align: center;
+}
+
+.card__image{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.card__title{
+  margin-top: 1vh;
+  color: white;
+}
+
+.contact{
+  font-family: sans-serif;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 40vw;
+  height: 70vh;
+  border-radius: 10px;
+  background-color: rgba(245, 202, 13, 0.699);
+  color: black;
+}
+
+.contact__item{
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.contact__icon{
+  margin-right: 1vw;
+}
+
+
+.contact__subitem{
+  display: flex;
+}
+
+
+.contact__title{
+  color: black;
+  font-size: 1.5rem;
+}
+
+#content{
+  height: 100vh;
+  width: 100vw;
+}
+
+.header{
+    width: 100vw;
+    height:15vh;
+    
+}
+
+
+.hidden{
+  display: none;
+}
+
+.navbar{
+  padding-bottom: 3vh;
+  background-color: rgb(56, 15, 15);
+  color: white;
+}
+
+.navbar-list{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    justify-content: space-around;
+    
+    
+}
+
+.navbar-list__item {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.829);
+}
+
+.navbar-list__item:hover{
+  cursor: pointer;
+}
+
+
+.main-contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  height:calc(100% - 15vh);
+}
+
+.main-home{
+  height: 75vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.main-menu{
+  height: 75vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.main-menu__title{
+  margin-top: 2vh;
+  color: white;
+  text-align: center;
+}
+
+.main__paraph{
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 3rem;
+  margin-bottom: 2vh;
+}
+
+.middle{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.section{
+  color: white;
+}
+
+.splide{
+  width: 15vw;
+  height: 80%;
+  margin-top: 10vh;
+  border: 0;
+}
+
+.splide__slide img {
+	width : 80%;
+	height: auto;
+  border-radius: 10px;
+  opacity: 0.8;
+
+}
+
+
+.title{
+  width: 100vw;
+  height: 50%;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
